@@ -1,4 +1,13 @@
 <?php
+//0-None, 1-Use
+$_useMysql = 1; 
+$_usePhpLibrary = 1; 
+$_useGzipCompress = 1;
+$_useDebug = 1; // 0 - Off, 1 - Simple, 2 - All
+$_useSession = 1;
+$_useHTTPs = 0;
+$_useFileManager = 1;
+
 // System Variable
 $_siteName = "PHP Framework V2";
 $_sitePublisher = "NeV3RmI";

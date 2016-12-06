@@ -1,0 +1,3 @@
+<?php
+$valueTrigger[2] = "";
+?>
