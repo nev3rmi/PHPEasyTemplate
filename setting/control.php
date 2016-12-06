@@ -17,10 +17,14 @@ $_copyRight = "Copyright ".$_sitePublisher." &copy; ". $_siteCopyrightYear;
 	if ($_usePhpLibrary == 1){
 		include_once $_phpPath."setting/php_library.php";
 	}
-	// Connecting MySQL
-	if ($_useMysql == 1){
-		include_once $_phpPath."setting/mysql_config.php";
+	// Trigger Package: SQL, SMTP, Email
+	if ($_useTrigger == 1){
+		include_once $_phpPath."setting/trigger/trigger.php";
 	}
+		// Connecting MySQL
+		if ($_useMysql == 1){
+			include_once $_phpPath."setting/mysql_config.php";
+		}
 	
 	/*if ($gzipcompress_s == 1){
 		if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start('ob_gzhandler'); else ob_start(); 	

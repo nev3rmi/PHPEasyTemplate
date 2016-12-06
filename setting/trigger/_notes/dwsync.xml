@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="test1.txt" server="31.220.16.196" local="131254285154306690" remote="131254056000000000" Dst="0" />
-<file name="test2.txt" server="31.220.16.196" local="131254285197546564" remote="131254056000000000" Dst="0" />
-<file name="test3.txt" server="31.220.16.196" local="131254285230073681" remote="131254056000000000" Dst="0" />
-<file name="trigger.php" server="31.220.16.196" local="131254679175064109" remote="131254426800000000" Dst="0" />
+<file name="trigger.php" server="31.220.16.196" local="131255251339684607" remote="131254999800000000" Dst="0" />
+<file name="emailstore.php" server="31.220.16.196" local="131255223411468993" remote="131254991400000000" Dst="0" />
+<file name="smtpstore.php" server="31.220.16.196" local="131255223321702526" remote="131254991400000000" Dst="0" />
+<file name="sqlstore.php" server="31.220.16.196" local="131255223249943089" remote="131255002200000000" Dst="0" />
 </dwsync>

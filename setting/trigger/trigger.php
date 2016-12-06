@@ -2,10 +2,37 @@
 include_once $_phpPath."/setting/trigger/sqlstore.php"; // asdjnoqlinfkjvnu!Q@#EDASnkjnasdfkjn!@#E|+
 include_once $_phpPath."/setting/trigger/emailstore.php"; // asdjnoqlinfkjvnu!Q@#EDASnkjnasdfkjn!@#E|++
 include_once $_phpPath."/setting/trigger/smtpstore.php"; // asdjnoqlinfkjvnu!Q@#EDASnkjnasdfkjn!@#E|+++
+include_once $_phpPath."/setting/installer/privatekey.php"; // Get Private Key
 
-consoleData(creatingSalt(creatingHash('3111996')));
-consoleData(validPassword(creatingHash('3111996'),'4b5255577231304c72453054463545546c686b53476c554d57466a54554e474d504e6c55336c6c616e427a55477045575231476355355556614a5455595a314d50686b5552526c61734e6b555868474d4f3157523478304d7668335957705656574244653552474d77316b594852586153524562355a31527845445a724a46526970485a51466d4d4b42445635565463536856537a6b46566b39555445704564565a3061794d46566f355757574a30534f683062304d56567851585442315450'));
-// Need function to read file
-// need function to render sql string
+if ($_privateKey != NULL){
+	$decryptPrivateKey = base64_decode(hex2bin(strrev($_privateKey)));
+	$explodeKey = explode('|',$decryptPrivateKey);
+	$selectedKey = array();
+	foreach($explodeKey AS $key)
+		{
+		   if(strlen($key) > 1)
+			  array_push($selectedKey,$key);
+		}
+}else{
+	echo "<br><span color='red'>Cannot Define Private Key</span>";
+	echo "<br><a href='".$_url."setting/installer/'>Please create the private key!</a>";	
+	exit();	
+}
 
+if ($_sqlEncryptString != NULL){
+function decryptSQLString($encryptSQLString, $iv_size, $privateKey){
+	$ciphertext_dec = base64_decode($encryptSQLString);
+    $iv_dec = substr($ciphertext_dec, 0, $iv_size);
+    $ciphertext_dec = substr($ciphertext_dec, $iv_size);
+    $plaintext_dec = mcrypt_decrypt(MCRYPT_RIJNDAEL_128, $privateKey,
+                                    $ciphertext_dec, MCRYPT_MODE_CBC, $iv_dec);
+    return $plaintext_dec;
+}
+
+$sqlPackage = decryptSQLString($_sqlEncryptString, $selectedKey[1], $selectedKey[0]);
+}else{
+	echo "<br><span color='red'>Cannot Define SQL Connect Package</span>";
+	echo "<br><a href='".$_url."setting/installer/'>Please config your database!</a>";	
+	exit();
+}
 ?>

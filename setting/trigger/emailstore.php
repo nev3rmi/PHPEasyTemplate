@@ -1,3 +1,3 @@
 <?php
-$valueTrigger[3] = "";
+$_emailEncryptString = "";
 ?>

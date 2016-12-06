@@ -1,6 +1,7 @@
 <?php
 //0-None, 1-Use
-$_useMysql = 1; 
+$_useTrigger = 1; // This include config for SMTP, Email, SQL
+	$_useMysql = 1; 
 $_usePhpLibrary = 1; 
 $_useGzipCompress = 1;
 $_useDebug = 1; // 0 - Off, 1 - Simple, 2 - All

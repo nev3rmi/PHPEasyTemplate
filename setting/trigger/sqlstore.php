@@ -1,3 +1,3 @@
 <?php
-$valueTrigger[1] = "";
+$_sqlEncryptString = "";
 ?>
