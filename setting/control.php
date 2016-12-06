@@ -2,7 +2,7 @@
 //Control Panel
 	//0-None, 1-Use
 	$_useMysql = 1; 
-	$_usePhpLibrary = 0; 
+	$_usePhpLibrary = 1; 
 	$_useGzipCompress = 1;
 	$_useDebug = 1; // 0 - Off, 1 - Simple, 2 - All
 	$_useSession = 1;
@@ -23,9 +23,9 @@ $_copyRight = "Copyright ".$_sitePublisher." &copy; ". $_siteCopyrightYear;
 
 // PHP FUNCTION
 	// PHP Library Include
-	/*if ($phplibraryuse_s == 1){
+	if ($_usePhpLibrary == 1){
 		include_once $_phpPath."setting/php_library.php";
-	}*/
+	}
 	// Connecting MySQL
 	if ($_useMysql == 1){
 		include_once $_phpPath."setting/mysql_config.php";

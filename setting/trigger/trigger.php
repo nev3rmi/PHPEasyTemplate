@@ -1,19 +1,9 @@
 <?php
-$fileReadTrigger[0] = $_phpPath."setting/trigger/test1.txt";
-$textTrigger[0] = fopen($fileReadTrigger[0], "r") or die("Unable to open file!");
-$fileTrigger[0] = fread($textTrigger[0],filesize($fileReadTrigger[0]));
-fclose($textTrigger[0]);
 
-$fileReadTrigger[1] = $_phpPath."setting/trigger/test2.txt";
-$textTrigger[1] = fopen($fileReadTrigger[1], "r") or die("Unable to open file!");
-$fileTrigger[1] = fread($textTrigger[1],filesize($fileReadTrigger[1]));
-fclose($textTrigger[1]);
 
-$fileReadTrigger[2] = $_phpPath."setting/trigger/test3.txt";
-$textTrigger[2] = fopen($fileReadTrigger[2], "r") or die("Unable to open file!");
-$fileTrigger[2] = fread($textTrigger[2],filesize($fileReadTrigger[2]));
-fclose($textTrigger[2]);
-
+echo creatingSalt(creatingHash('1234'));
+echo '<br>';
+echo validPassword(creatingHash('1234'),'4b52555772396d65534e54545774555169566a54686c576573685659555232616b4e6b553552464d734a3055565a6c655364305979776b4d575a6e5774423364617447623177454d475a555a49523255575a6c515252315135306b567a516d5257466a56534a6d5653466c59565248655242544e78466c626f703256735a6c62686c574f334e47576b313255735a455369466a565535454d776c315574356b4d6a566b524f35454d774a4856494e57654e74574f31566c564352565452315450');
 // Need function to read file
 // need function to render sql string
 
