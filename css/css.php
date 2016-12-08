@@ -1,10 +1,2 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
-
-<body>
-</body>
-</html>
+<link rel="stylesheet" href="<?php echo $_url;?>css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="<?php echo $_url;?>css/bootstrap.min.css">

@@ -1,10 +1,2 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
-
-<body>
-</body>
-</html>
+<script src="<?php echo $_url;?>js/jquery-3.1.1.min.js" ></script>
+<script src="<?php echo $_url;?>js/bootstrap.min.js" ></script>
