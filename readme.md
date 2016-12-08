@@ -7,6 +7,14 @@ Consider to update:
 		$URL/page/about
 		to 
 		$URL/about
+		
+		Multiple mini project in big project:
+			Original: $URL/page/User/.../
+			User/register/
+			User/login/
+			User/forgotpassword/
+			User/viewdetails/
+			User/index = User/
 
 ***********************************************************************
 ****************This website template made by NeV3RmI******************
