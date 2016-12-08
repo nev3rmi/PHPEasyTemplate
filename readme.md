@@ -1,3 +1,8 @@
+Consider to update:
+	Get absolute path file:
+		substr(__FILE__, 0, -strlen($_SERVER['SCRIPT_NAME']));
+
+
 ***********************************************************************
 ****************This website template made by NeV3RmI******************
 ***********************************************************************
