@@ -16,6 +16,9 @@ Consider to update:
 			User/viewdetails/
 			User/index = User/
 
+	Auto get CSS and JS in folder
+		Create a function
+
 ***********************************************************************
 ****************This website template made by NeV3RmI******************
 ***********************************************************************
