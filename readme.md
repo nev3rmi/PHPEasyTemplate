@@ -1,7 +1,12 @@
 Consider to update:
+
 	Get absolute path file:
 		substr(__FILE__, 0, -strlen($_SERVER['SCRIPT_NAME']));
 
+	Rewrite URL:
+		$URL/page/about
+		to 
+		$URL/about
 
 ***********************************************************************
 ****************This website template made by NeV3RmI******************
