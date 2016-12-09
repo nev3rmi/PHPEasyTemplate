@@ -7,4 +7,3 @@
     </div>
   </div>
 </header>
-<hr>

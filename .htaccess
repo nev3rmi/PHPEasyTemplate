@@ -17,3 +17,12 @@ RewriteBase /
     ExpiresByType application/xhtml+xml "access plus 600 seconds"
 </ifModule>
 # END Expire headers
+# Rewrite URL
+# URL/page/*/ to URL/*
+RewriteEngine on
+RewriteBase /
+RewriteRule ^([a-zA-Z0-9]+)$ page/$1/
+RewriteRule ^(product)/(viewdetails)/([a-zA-Z0-9]+)$ page/product/viewdetails/?id=$1
+RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9]+)$ page/$1/$2/
+
+
