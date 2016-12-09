@@ -22,7 +22,6 @@ RewriteBase /
 RewriteEngine on
 RewriteBase /
 RewriteRule ^([a-zA-Z0-9]+)$ page/$1/
-RewriteRule ^(product)/(viewdetails)/([a-zA-Z0-9]+)$ page/product/viewdetails/?id=$1
 RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9]+)$ page/$1/$2/
-
+RewriteRule ^(product)/(viewdetails)/([a-zA-Z0-9]+)$ page/product/viewdetails/?id$1$2=$3
 
