@@ -1,5 +1,5 @@
 <div class="upper-containner">
-<?php require_once $thisPageUpperContent ?>
+<?php if (!empty($thisPageUpperContent)){require_once $thisPageUpperContent;} ?>
 </div>
 <div class="container">
 <hr>
@@ -8,5 +8,5 @@
 <?php require_once $_phpPath."page/_layout/body/_footer.php"; ?>
 </div>
 <div class="downer-containner">
-<?php require_once $thisPageDownerContent ?>
+<?php if (!empty($thisPageDownerContent)){require_once $thisPageDownerContent;} ?>
 </div>
