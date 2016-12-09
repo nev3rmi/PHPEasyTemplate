@@ -62,5 +62,14 @@ function generateRandomString($length = 64) {
 	}
 	return $randomString;
 }
-
+function generateLinkPath($path,$_url){
+	$explode = explode("/",$path);
+	$countExplode = count($explode);
+	$link[0] = $_url;
+	for ($x = 1; $x < $countExplode; $x++){
+		$link[$x] = $link[$x-1].$explode[$x].'/';
+		$result .= '<a href="'.substr($link[$x],0,-1).'">'.ucfirst($explode[$x]).'</a>'.' > ';
+	}
+	return substr($result,0,-2);
+}
 ?>

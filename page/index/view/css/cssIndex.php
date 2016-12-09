@@ -1,3 +1,1 @@
-<?php
-$thisPageCSS = "";
-?>
+<link rel="stylesheet" href="<?php echo $_url;?>page/index/view/css/indexCustom.css">

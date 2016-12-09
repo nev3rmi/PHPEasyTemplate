@@ -10,7 +10,7 @@ $_useHTTPs = 0;
 $_useFileManager = 1;
 
 // System Variable
-$_siteName = "PHP Framework V2";
+$_siteName = "PHP Easy";
 $_sitePublisher = "NeV3RmI";
 $_siteCopyrightYear = "2013 - 2016";
 $_siteVersion = "2.0.0.0";
@@ -21,4 +21,11 @@ $_siteVersion = "2.0.0.0";
 //Regex Library
 $regexMail = "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/";
 $regexPassword = "";
+
+
+// Connect DB String
+$_dbHostName = $selectedSQLKey[0];	
+$_dbUsername = $selectedSQLKey[1];	
+$_dbPassword = $selectedSQLKey[2];
+$_dbDatabase = $selectedSQLKey[3];
 ?>

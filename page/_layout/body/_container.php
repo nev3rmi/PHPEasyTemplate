@@ -1,6 +1,3 @@
-<div class="upper-containner">
-<?php if (!empty($thisPageUpperContent)){require_once $thisPageUpperContent;} ?>
-</div>
 <div class="container">
 <hr>
 <?php require_once $thisPageContent ?>

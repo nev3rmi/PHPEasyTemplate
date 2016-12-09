@@ -4,6 +4,7 @@ $_q = "'";
 $_p = '"';
 $_url = "http".($_useHTTPs == 1 ? "s" : "")."://" . $_SERVER['SERVER_NAME']."/";
 $_fullUrl = "http".($_useHTTPs == 1 ? "s" : "")."://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$_documentPath = $_SERVER['REQUEST_URI'];
 $_phpPath = $_SERVER['DOCUMENT_ROOT']."/";
 
 // Include User Config
