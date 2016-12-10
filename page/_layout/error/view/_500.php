@@ -1,3 +1,3 @@
-<h1>
+<h3>
 Internal Server Error.
-</h1>
+</h3>

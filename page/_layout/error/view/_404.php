@@ -1,3 +1,3 @@
-<h1>
+<h3>
 Page not found!
-</h1>
+</h3>

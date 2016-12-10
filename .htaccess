@@ -30,4 +30,10 @@ RewriteRule ^(product)/(viewdetails)/([a-zA-Z0-9]+)$ page/product/viewdetails/?i
     Header set Access-Control-Allow-Origin "*"
   </FilesMatch>
 </IfModule>
+# Error Redirect
+ErrorDocument 400 /page/_layout/error/_400.php
+ErrorDocument 401 /page/_layout/error/_401.php
+ErrorDocument 403 /page/_layout/error/_403.php
+ErrorDocument 404 /page/_layout/error/_404.php
+ErrorDocument 500 /page/_layout/error/_500.php
 
