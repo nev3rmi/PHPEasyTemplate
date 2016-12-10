@@ -3,7 +3,7 @@ Consider to update:
 	Get absolute path file:
 		substr(__FILE__, 0, -strlen($_SERVER['SCRIPT_NAME']));
 
-	Rewrite URL:
+	Rewrite URL: DONE
 		$URL/page/about
 		to 
 		$URL/about
@@ -18,6 +18,8 @@ Consider to update:
 
 	Auto get CSS and JS in folder
 		Create a function
+
+	Auto Active Link in Navbar
 
 ***********************************************************************
 ****************This website template made by NeV3RmI******************
