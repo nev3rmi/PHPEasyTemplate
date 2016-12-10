@@ -5,12 +5,10 @@ foreach (priorityKey(getAllFileInFolderWithType($_phpPath.'js', 'js'), "jquery-3
 }
 ?>
 <script>
+// This function need to be improve:
+// Because if second level apply it will be wrong.
 $(function() {
      var pgurl = window.location.href;
-	 /*
-	 console.log($(this).attr("href"));
-	 console.log(pgurl);
-     */
 	 $("#nav ul li a").each(function(){
           if(/*regexCheck($(this).attr("href"), pgurl) ||*/ $(this).attr("href") == pgurl || $(this).attr("href") == '' )
           $(this).parent().addClass("active");
