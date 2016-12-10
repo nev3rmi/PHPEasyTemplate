@@ -1,3 +1,5 @@
+Current Version: 2.0.0.0 Alpha
+
 Consider to update:
 
 	Get absolute path file:
@@ -27,6 +29,7 @@ Consider to update:
 
 1/ Config
 
+FOR RMIT Student:
 Open File and change all the s3515215 to your student number
 
 2/ Config MySQL
@@ -43,11 +46,12 @@ JS
 + Jquery
 
 PHP
-+ 
+ 
 + Connect MySQL
 + All link to one
 
 Other Feature
+
 + GZIP Compression
 + .htaccess
 + .htpasswd
