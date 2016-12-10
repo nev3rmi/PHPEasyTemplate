@@ -72,4 +72,17 @@ function generateLinkPath($path,$_url){
 	}
 	return substr($result,0,-2);
 }
+function getAllFileInFolder($path){
+	return array_diff(scandir($path),array('..', '.'));	
+}
+function getAllFileInFolderWithType($path, $fileType){
+	$listOfAllFile = array_diff(scandir($path),array('..', '.'));
+	return preg_grep("/^.*\.(".$fileType.")$/", $listOfAllFile);
+}
+function priorityKey($array, $value){
+    $key = array_search($value, $array);
+    if($key) unset($array[$key]);
+    array_unshift($array, $value);  
+    return $array;
+}
 ?>
