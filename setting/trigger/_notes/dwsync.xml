@@ -4,4 +4,12 @@
 <file name="emailstore.php" server="31.220.16.196" local="131255223411468993" remote="131254991400000000" Dst="0" />
 <file name="smtpstore.php" server="31.220.16.196" local="131255223321702526" remote="131254991400000000" Dst="0" />
 <file name="sqlstore.php" server="31.220.16.196" local="131255223249943089" remote="131256441600000000" Dst="0" />
+<file name="emailstore.php" server="ftp.hostfree.pw//htdocs/" local="131255223411468993" remote="131259100800000000" Dst="0" />
+<file name="smtpstore.php" server="ftp.hostfree.pw//htdocs/" local="131255223321702526" remote="131259100800000000" Dst="0" />
+<file name="sqlstore.php" server="ftp.hostfree.pw//htdocs/" local="131255223249943089" remote="131259100800000000" Dst="0" />
+<file name="trigger.php" server="ftp.hostfree.pw//htdocs/" local="131255947079396275" remote="131259100800000000" Dst="0" />
+<file name="emailstore.php" server="ftp.userpermissiontesting.esy.es//public_html/" local="131255223411468993" remote="131259280200000000" Dst="0" />
+<file name="smtpstore.php" server="ftp.userpermissiontesting.esy.es//public_html/" local="131255223321702526" remote="131259280200000000" Dst="0" />
+<file name="trigger.php" server="ftp.userpermissiontesting.esy.es//public_html/" local="131255947079396275" remote="131259280200000000" Dst="0" />
+<file name="sqlstore.php" server="ftp.userpermissiontesting.esy.es//public_html/" local="131255223249943089" remote="131259280200000000" Dst="0" />
 </dwsync>

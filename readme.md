@@ -1,5 +1,9 @@
 Current Version: 2.0.0.0 Alpha
 
+Testing Server:
+	
+	Hostinger.vn, Hostfree.pw
+
 Consider to update:
 
 	Get absolute path file: NOT YET

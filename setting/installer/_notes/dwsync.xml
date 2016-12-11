@@ -3,4 +3,10 @@
 <file name="controller.php" server="31.220.16.196" local="131255254026634409" remote="131255001600000000" Dst="0" />
 <file name="index.php" server="31.220.16.196" local="131255139103600012" remote="131254887000000000" Dst="0" />
 <file name="privatekey.php" server="31.220.16.196" local="131255225960953181" remote="131256441600000000" Dst="0" />
+<file name="controller.php" server="ftp.hostfree.pw//htdocs/" local="131255254026634409" remote="131259100800000000" Dst="0" />
+<file name="index.php" server="ftp.hostfree.pw//htdocs/" local="131255139103600012" remote="131259100800000000" Dst="0" />
+<file name="privatekey.php" server="ftp.hostfree.pw//htdocs/" local="131255225960953181" remote="131259100800000000" Dst="0" />
+<file name="controller.php" server="ftp.userpermissiontesting.esy.es//public_html/" local="131255254026634409" remote="131259280200000000" Dst="0" />
+<file name="privatekey.php" server="ftp.userpermissiontesting.esy.es//public_html/" local="131255225960953181" remote="131259280200000000" Dst="0" />
+<file name="index.php" server="ftp.userpermissiontesting.esy.es//public_html/" local="131255139103600012" remote="131259280200000000" Dst="0" />
 </dwsync>
