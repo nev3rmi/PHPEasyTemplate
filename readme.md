@@ -32,6 +32,9 @@ Consider to update:
 			- Do loop to get all level of directory and go backward to active link.
 			- Or: Find the url and active the link if inside link active outside do to apply on CSS.
 
+	Lazyload: https://www.appelsiini.net/projects/lazyload
+		Should be apply
+		
 ***********************************************************************
 Task:
 	
