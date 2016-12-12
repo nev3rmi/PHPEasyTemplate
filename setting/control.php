@@ -32,6 +32,8 @@ $_copyRight = "Copyright ".$_sitePublisher." &copy; ". $_siteCopyrightYear;
 	if ($_useGzipCompress == 1){
 		if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start('ob_gzhandler'); else ob_start(); 	
 	}
+	if ($_useHTTPs == 1){
+	}
 	/*
 	if ($turnofferror_s == 0){
 		error_reporting(0);	

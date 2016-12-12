@@ -5,6 +5,11 @@
 <file name="jquery-3.1.1.min.js" server="31.220.16.196" local="131256705497254103" remote="131256454200000000" Dst="0" />
 <file name="bootstrap.min.js" server="31.220.16.196" local="131139104100000000" remote="131256454200000000" Dst="0" />
 <file name="phpeasy_library.js" server="31.220.16.196" local="131258400059710441" remote="131258148000000000" Dst="0" />
-<file name="js_bottom.php" server="ftp.hostfree.pw//htdocs/" local="131260294100514190" remote="131259864000000000" Dst="0" />
-<file name="navigation-active.js" server="ftp.hostfree.pw//htdocs/" local="131260294198568909" remote="131259864000000000" Dst="0" />
+<file name="js_bottom.php" server="ftp.hostfree.pw//htdocs/" local="131260296661081629" remote="131259891000000000" Dst="0" />
+<file name="bootstrap.min.js" server="ftp.hostfree.pw//htdocs/" local="131139104100000000" remote="131259891000000000" Dst="0" />
+<file name="jquery.lazyload.min.js" server="ftp.hostfree.pw//htdocs/" local="130850753360000000" remote="131259891000000000" Dst="0" />
+<file name="jquery-3.1.1.min.js" server="ftp.hostfree.pw//htdocs/" local="131256705497254103" remote="131259891000000000" Dst="0" />
+<file name="js_top.php" server="ftp.hostfree.pw//htdocs/" local="131258734869792893" remote="131259891000000000" Dst="0" />
+<file name="onpage-finish-load.js" server="ftp.hostfree.pw//htdocs/" local="131260321516553441" remote="131259891000000000" Dst="0" />
+<file name="phpeasy_library.js" server="ftp.hostfree.pw//htdocs/" local="131258400059710441" remote="131259891000000000" Dst="0" />
 </dwsync>

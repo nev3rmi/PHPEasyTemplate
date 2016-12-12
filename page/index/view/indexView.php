@@ -50,13 +50,13 @@ $thisPageCss = "";
     <h2 class="page-header">Portfolio Heading</h2>
   </div>
  <div class="row">
-  <div class="col-md-4 col-sm-6"> <a href="portfolio-item.html"> <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt=""> </a> </div>
-  <div class="col-md-4 col-sm-6"> <a href="portfolio-item.html"> <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt=""> </a> </div>
-  <div class="col-md-4 col-sm-6"> <a href="portfolio-item.html"> <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt=""> </a> </div>
+  <div class="col-md-4 col-sm-6"> <a href="portfolio-item.html"> <img class="img-responsive img-portfolio img-hover" src="https://placehold.it/700x450" alt=""> </a> </div>
+  <div class="col-md-4 col-sm-6"> <a href="portfolio-item.html"> <img class="img-responsive img-portfolio img-hover" src="https://placehold.it/700x450" alt=""> </a> </div>
+  <div class="col-md-4 col-sm-6"> <a href="portfolio-item.html"> <img class="img-responsive img-portfolio img-hover" src="https://placehold.it/700x450" alt=""> </a> </div>
   </div><div class="row">
-  <div class="col-md-4 col-sm-6"> <a href="portfolio-item.html"> <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt=""> </a> </div>
-  <div class="col-md-4 col-sm-6"> <a href="portfolio-item.html"> <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt=""> </a> </div>
-  <div class="col-md-4 col-sm-6"> <a href="portfolio-item.html"> <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt=""> </a> </div>
+  <div class="col-md-4 col-sm-6"> <a href="portfolio-item.html"> <img class="img-responsive img-portfolio img-hover" src="https://placehold.it/700x450" alt=""> </a> </div>
+  <div class="col-md-4 col-sm-6"> <a href="portfolio-item.html"> <img class="img-responsive img-portfolio img-hover" src="https://placehold.it/700x450" alt=""> </a> </div>
+  <div class="col-md-4 col-sm-6"> <a href="portfolio-item.html"> <img class="img-responsive img-portfolio img-hover" src="https://placehold.it/700x450" alt=""> </a> </div>
   </div>
 </div>
 <!-- /.row --> 
@@ -78,7 +78,7 @@ $thisPageCss = "";
     </ul>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
   </div>
-  <div class="col-md-6"> <img class="img-responsive" src="http://placehold.it/700x450" alt=""> </div>
+  <div class="col-md-6"> <img class="img-responsive" src="https://placehold.it/700x450" alt=""> </div>
 </div>
 <!-- /.row -->
 

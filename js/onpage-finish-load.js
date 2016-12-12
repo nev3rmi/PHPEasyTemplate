@@ -7,4 +7,8 @@ $(function() {
           if(/*regexCheck($(this).attr("href"), pgurl) ||*/ $(this).attr("href") == pgurl || $(this).attr("href") == '' )
           $(this).parent().addClass("active");
      })
+	 
+	 $("img").lazyload();
 });
+
+
