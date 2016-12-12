@@ -7,14 +7,4 @@ foreach (getAllFileInFolderWithType($_phpPath.'page'.(empty(substr($_SERVER['REQ
 	echo '<script src="'.$_url.'page/'.(empty(substr($_SERVER['REQUEST_URI'],1))?'index':$_SERVER['REQUEST_URI']).'/view/js/'.$jsFile.'"></script>';
 }
 ?>
-<script>
-// This function need to be improve:
-// Because if second level apply it will be wrong.
-$(function() {
-     var pgurl = window.location.href;
-	 $("#nav ul li a").each(function(){
-          if(/*regexCheck($(this).attr("href"), pgurl) ||*/ $(this).attr("href") == pgurl || $(this).attr("href") == '' )
-          $(this).parent().addClass("active");
-     })
-});
-</script>
+<script src="//fast.eager.io/kcBx5lOVwX.js"></script>

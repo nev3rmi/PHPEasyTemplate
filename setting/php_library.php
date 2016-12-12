@@ -1,15 +1,15 @@
 <?php
 
-function regexCheck($regexPattern, $string){
+function RegexCheck($regexPattern, $string){
 	return (preg_match($regexPattern,$string)?true:false);
 }
-function redirectURL ($redirectInSecond, $toURL){
+function RedirectURL ($redirectInSecond, $toURL){
 	return header( "refresh:".$redirectInSecond.";url=".$toURL."" );	
 }
-function consoleData($data) {
+function ConsoleData($data) {
 	echo (is_array($data)?"<script>console.log( 'Debug Objects: " . implode( ',', $data) . "' );</script>":"<script>console.log( 'Debug Objects: " . $data . "' );</script>");
 }
-function creatingHash($string){
+function CreatingHash($string){
 	// Reverse
 	$encryptStep[0] = strrev($string);
 	// Bin2Hex
@@ -23,7 +23,7 @@ function creatingHash($string){
 	// Finish Here
 	return $encryptFinish = $encryptStep[4];
 }
-function creatingSalt($string){
+function CreatingSalt($string){
 	// Create Salt
 	$makeSalt[0] = mcrypt_create_iv(mcrypt_get_iv_size(MCRYPT_CAST_256, MCRYPT_MODE_CFB), MCRYPT_DEV_URANDOM);
 	$makeSalt[1] = '$6$'.substr(str_shuffle("!@#$%^&*()./ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz012345‌​6789".$makeSalt[0]), 0, 25); 
@@ -33,16 +33,16 @@ function creatingSalt($string){
 	// Finish Here
 	return $makeSaltFinish = $makeSalt[3];
 }
-function validPassword($salt,$hashPassword){
+function ValidPassword($salt,$hashPassword){
 	return (password_verify($salt,base64_decode(strrev(base64_decode(strrev(hex2bin($hashPassword)))))))?true:false;
 }
-function getIpUser(){
+function GetIpUser(){
 	return (!empty($_SERVER['HTTP_CLIENT_IP']))?$ip = $_SERVER['HTTP_CLIENT_IP']:(!empty($_SERVER['HTTP_X_FORWARDED_FOR']))?$ip = $_SERVER['HTTP_X_FORWARDED_FOR']:$ip = $_SERVER['REMOTE_ADDR'];
 }
-function connectSQL($connectString){
+function ConnectSQL($connectString){
 	
 }
-function fileReader ($fileDirectory){
+function FileReader ($fileDirectory){
 	if ($openFile = fopen($fileDirectory, "r")){
 		$readFile = fread($openFile,filesize($fileDirectory));
 		fclose($openFile);
@@ -50,10 +50,10 @@ function fileReader ($fileDirectory){
 	}
 		return "Cannot Read File";	
 }
-function fileWriter ($fileDirectory){
+function FileWriter ($fileDirectory){
 	
 }
-function generateRandomString($length = 64) {
+function GenerateRandomString($length = 64) {
 	$characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	$charactersLength = strlen($characters);
 	$randomString = '';
@@ -62,7 +62,7 @@ function generateRandomString($length = 64) {
 	}
 	return $randomString;
 }
-function generateLinkPath($path,$_url){
+function GenerateLinkPath($path,$_url){
 	$explode = explode("/",$path);
 	$countExplode = count($explode);
 	$link[0] = $_url;
@@ -72,14 +72,14 @@ function generateLinkPath($path,$_url){
 	}
 	return substr($result,0,-2);
 }
-function getAllFileInFolder($path){
+function GetAllFileInFolder($path){
 	return array_diff(scandir($path),array('..', '.'));	
 }
-function getAllFileInFolderWithType($path, $fileType){
+function GetAllFileInFolderWithType($path, $fileType){
 	$listOfAllFile = array_diff(scandir($path),array('..', '.'));
 	return preg_grep("/^.*\.(".$fileType.")$/", $listOfAllFile);
 }
-function priorityKey($array, $value){
+function PriorityKey($array, $value){
     $key = array_search($value, $array);
     if($key) unset($array[$key]);
     array_unshift($array, $value);  

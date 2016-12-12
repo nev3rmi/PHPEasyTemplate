@@ -1,14 +1,16 @@
 <?php
+// Priority
+$_phpPath = $_SERVER['DOCUMENT_ROOT']."/";
+// Include User Config
+include_once $_phpPath."setting/config.php";
+
+
 // Configuration
 $_q = "'";
 $_p = '"';
 $_url = "http".($_useHTTPs == 1 ? "s" : "")."://" . $_SERVER['SERVER_NAME']."/";
 $_fullUrl = "http".($_useHTTPs == 1 ? "s" : "")."://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 $_documentPath = $_SERVER['REQUEST_URI'];
-$_phpPath = $_SERVER['DOCUMENT_ROOT']."/";
-
-// Include User Config
-include_once $_phpPath."setting/config.php";
 
 // Page Setting
 $_copyRight = "Copyright ".$_sitePublisher." &copy; ". $_siteCopyrightYear;
@@ -27,9 +29,10 @@ $_copyRight = "Copyright ".$_sitePublisher." &copy; ". $_siteCopyrightYear;
 			include_once $_phpPath."setting/mysql_config.php";
 		}
 	
-	/*if ($gzipcompress_s == 1){
+	if ($_useGzipCompress == 1){
 		if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start('ob_gzhandler'); else ob_start(); 	
 	}
+	/*
 	if ($turnofferror_s == 0){
 		error_reporting(0);	
 	}

@@ -6,7 +6,7 @@ $_usePhpLibrary = 1;
 $_useGzipCompress = 1;
 $_useDebug = 1; // 0 - Off, 1 - Simple, 2 - All
 $_useSession = 1;
-$_useHTTPs = 0;
+$_useHTTPs = 1;
 $_useFileManager = 1;
 
 // System Variable
@@ -28,4 +28,5 @@ $_dbHostName = $selectedSQLKey[0];
 $_dbUsername = $selectedSQLKey[1];	
 $_dbPassword = $selectedSQLKey[2];
 $_dbDatabase = $selectedSQLKey[3];
+
 ?>
