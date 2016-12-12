@@ -6,7 +6,7 @@ $_usePhpLibrary = 1;
 $_useGzipCompress = 1;
 $_useDebug = 1; // 0 - Off, 1 - Simple, 2 - All
 $_useSession = 1;
-$_useHTTPs = 1;
+$_useHTTPs = 1; // Learn how to make a free SSL: http://www.selfsignedcertificate.com/
 $_useFileManager = 1;
 
 // System Variable

@@ -85,4 +85,14 @@ function PriorityKey($array, $value){
     array_unshift($array, $value);  
     return $array;
 }
+function isSSL()
+{
+	if( !empty( $_SERVER['https'] ) )
+		return true;
+
+	if( !empty( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https' )
+		return true;
+
+	return false;
+}
 ?>
