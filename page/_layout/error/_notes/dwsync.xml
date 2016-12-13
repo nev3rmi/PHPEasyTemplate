@@ -10,9 +10,14 @@
 <file name="_404.php" server="ftp.userpermissiontesting.esy.es//public_html/" local="131258687297270596" remote="131259306000000000" Dst="0" />
 <file name="_403.php" server="ftp.userpermissiontesting.esy.es//public_html/" local="131258690920096595" remote="131259306000000000" Dst="0" />
 <file name="_500.php" server="ftp.userpermissiontesting.esy.es//public_html/" local="131258690874620130" remote="131259306000000000" Dst="0" />
-<file name="_400.php" server="ftp.hostfree.pw//htdocs/" local="131258691010000000" remote="131259541200000000" Dst="0" />
-<file name="_404.php" server="ftp.hostfree.pw//htdocs/" local="131258687297270596" remote="131259541200000000" Dst="0" />
-<file name="_401.php" server="ftp.hostfree.pw//htdocs/" local="131258690961870815" remote="131259541200000000" Dst="0" />
-<file name="_403.php" server="ftp.hostfree.pw//htdocs/" local="131258690920096595" remote="131259541200000000" Dst="0" />
-<file name="_500.php" server="ftp.hostfree.pw//htdocs/" local="131258690874620130" remote="131259541200000000" Dst="0" />
+<file name="_400.php" server="ftp.hostfree.pw//htdocs/" local="131261203501786655" remote="131260825200000000" Dst="0" />
+<file name="_404.php" server="ftp.hostfree.pw//htdocs/" local="131261203501801666" remote="131260825200000000" Dst="0" />
+<file name="_401.php" server="ftp.hostfree.pw//htdocs/" local="131261203501791661" remote="131260825200000000" Dst="0" />
+<file name="_403.php" server="ftp.hostfree.pw//htdocs/" local="131261203501796668" remote="131260825200000000" Dst="0" />
+<file name="_500.php" server="ftp.hostfree.pw//htdocs/" local="131261203501806681" remote="131260825200000000" Dst="0" />
+<file name="_400.php" server="ftp.phpeasy.gq//htdocs/" local="131261203501786655" remote="131260837800000000" Dst="0" />
+<file name="_404.php" server="ftp.phpeasy.gq//htdocs/" local="131261203501801666" remote="131260837800000000" Dst="0" />
+<file name="_401.php" server="ftp.phpeasy.gq//htdocs/" local="131261203501791661" remote="131260837800000000" Dst="0" />
+<file name="_403.php" server="ftp.phpeasy.gq//htdocs/" local="131261203501796668" remote="131260837800000000" Dst="0" />
+<file name="_500.php" server="ftp.phpeasy.gq//htdocs/" local="131261203501806681" remote="131260837800000000" Dst="0" />
 </dwsync>

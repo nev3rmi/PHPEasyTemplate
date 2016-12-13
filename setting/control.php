@@ -37,8 +37,8 @@ $_copyRight = "Copyright ".$_sitePublisher." &copy; ". $_siteCopyrightYear;
 	/*
 	if ($turnofferror_s == 0){
 		error_reporting(0);	
-	}
-	if ($usesession_s == 1){
-		session_start();
 	}*/
+	if ($_useSession == 1){
+		session_start();
+	}
 ?>
