@@ -46,19 +46,15 @@ Vi du:
 
 */
 // Should be in config.php to re-use
-$getPath = explode("/",$_documentPath);
-if ($getPath[1] == "" || !isset($getPath[1])){
-	$getPath[1] = "index";
-}
-$countGetPath = count($getPath);
 
-for ($x = 0; $x < $countGetPath; $x++){
+
+for ($x = 0; $x < $_countGetPath; $x++){
 	// Get All Public Inheritent File
-	$combineLine[$x] = $combineLine[$x - 1].$getPath[$x].'/';
+	$_combineLine[$x] = $_combineLine[$x - 1].$_getPath[$x].'/';
 	//consoleData('Path: '.$_phpPath.'css'.$combineLine[$x]);
 	//consoleData(getAllFileInFolderWithType($_phpPath.'css'.$combineLine[$x], 'css'));
-	foreach (getAllFileInFolderWithType($_phpPath.'css'.$combineLine[$x], 'css') as $cssFile){
-		echo('<link rel="stylesheet" href="'.$_url.'css'.$combineLine[$x].$cssFile.'">');
+	foreach (getAllFileInFolderWithType($_phpPath.'css'.$_combineLine[$x], 'css') as $cssFile){
+		echo('<link rel="stylesheet" href="'.$_url.'css'.$_combineLine[$x].$cssFile.'">');
 	}
 }
 // Get Private File

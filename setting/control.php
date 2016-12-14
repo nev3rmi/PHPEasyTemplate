@@ -11,6 +11,11 @@ $_p = '"';
 $_url = "http".($_useHTTPs == 1 ? "s" : "")."://" . $_SERVER['SERVER_NAME']."/";
 $_fullUrl = "http".($_useHTTPs == 1 ? "s" : "")."://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 $_documentPath = $_SERVER['REQUEST_URI'];
+$_getPath = explode("/",$_documentPath);
+if ($_getPath[1] == "" || !isset($_getPath[1])){
+	$_getPath[1] = "index";
+}
+$_countGetPath = count($_getPath);
 
 // Page Setting
 $_copyRight = "Copyright ".$_sitePublisher." &copy; ". $_siteCopyrightYear;
