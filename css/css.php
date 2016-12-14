@@ -56,10 +56,12 @@ for ($x = 0; $x < $_countGetPath; $x++){
 	foreach (getAllFileInFolderWithType($_phpPath.'css'.$_combineLine[$x], 'css') as $cssFile){
 		echo('<link rel="stylesheet" href="'.$_url.'css'.$_combineLine[$x].$cssFile.'">');
 	}
-}
-// Get Private File
-// consoleData($_phpPath.'css'.$_documentPath.'/private');
-foreach (getAllFileInFolderWithType($_phpPath.'css'.$_documentPath.'/private', 'css') as $cssFile){
-	echo('<link rel="stylesheet" href="'.$_url.'css'.$_documentPath.'/private/'.$cssFile.'">');
+	// Get Private File
+	if ($x == ($_countGetPath - 1)){
+		// consoleData($_phpPath.'css'.$_documentPath.'/private');
+		foreach (getAllFileInFolderWithType($_phpPath.'css'.$_combineLine[$x].'private', 'css') as $cssFile){
+			echo('<link rel="stylesheet" href="'.$_url.'css'.$_combineLine[$x].'private/'.$cssFile.'">');
+		}
+	}
 }
 ?>

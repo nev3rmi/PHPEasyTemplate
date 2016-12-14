@@ -81,9 +81,11 @@ function GetAllFileInFolderWithType($path, $fileType){
 }
 function PriorityKey($array, $value){
     $key = array_search($value, $array);
-    if($key) unset($array[$key]);
-    array_unshift($array, $value);  
-    return $array;
+    if($key){
+		unset($array[$key]);
+		array_unshift($array, $value);  
+    } 
+	return $array;
 }
 function isSSL()
 {

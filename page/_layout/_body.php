@@ -6,7 +6,7 @@
 <?php //if(!empty($thisPageCSS)){require_once $thisPageCSS;}
 echo $thisPageCSS;
 ?>
-<?php require_once $_phpPath."js/js_bottom.php"; ?>
+<?php require_once $_phpPath."js/js.php"; ?>
 <?php //if(!empty($thisPageJS)){require_once $thisPageJS;}
 echo $thisPageJS;
 ?>
