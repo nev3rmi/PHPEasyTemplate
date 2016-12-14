@@ -23,8 +23,13 @@ consoleData($_documentPath);
 $getPath = explode("/","/product/viewdetail/test/sub1");
 $countGetPath = count($getPath);
 
+// Get Private chi co minh no
+// Va tat ca cac Public thi se co may thang khac nua
 for ($x = 1; $x < $countGetPath; $x++){
 	consoleData("Path Number: ".$x." ,Path name:".$getPath[$x]);
+	foreach (getAllFileInFolderWithType($_phpPath.'css', 'css') as $cssFile){
+		echo '<link rel="stylesheet" href="'.$_url.'css/'.$cssFile.'">';
+	}
 }
 
 
