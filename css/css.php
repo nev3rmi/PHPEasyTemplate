@@ -45,7 +45,7 @@ Vi du:
 	
 
 */
-// Should be in config.php to reuse
+// Should be in config.php to re-use
 $getPath = explode("/",$_documentPath);
 if ($getPath[1] == "" || !isset($getPath[1])){
 	$getPath[1] = "index";
