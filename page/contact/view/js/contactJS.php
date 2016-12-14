@@ -1,1 +1,0 @@
-<script src="<?php echo $_url;?>page/index/view/js/indexCustom.js" ></script>

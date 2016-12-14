@@ -21,8 +21,8 @@ RewriteBase /
 # URL/page/*/ to URL/*
 RewriteEngine on
 # Force to use HTTPS
-RewriteCond %{HTTPS} off
-RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+#RewriteCond %{HTTPS} off
+#RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
 # Path Rule
 RewriteBase /
 RewriteRule ^([a-zA-Z0-9]+)$ page/$1/

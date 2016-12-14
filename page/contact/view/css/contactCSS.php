@@ -1,1 +1,0 @@
-<link rel="stylesheet" href="<?php echo $_url;?>page/index/view/css/newpageCustom.css">
