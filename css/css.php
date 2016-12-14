@@ -1,27 +1,23 @@
 <?php
-
+////////////////////////////////////////////////////
+// Version 1
 // Load general css
+/*
 foreach (getAllFileInFolderWithType($_phpPath.'css', 'css') as $cssFile){
 	echo '<link rel="stylesheet" href="'.$_url.'css/'.$cssFile.'">';
 }
-// Load specific folder css .'page'.$_SERVER['REQUEST_URI']
-// First level get
-/* 
-Check by get all by count subfolder level, if 3 level check 3 times, get all view folder and go to css folder get file.
-*/
-// Need to check how many / then loop and find view get all css and js 
+
 foreach (getAllFileInFolderWithType($_phpPath.'page'.(empty(substr($_SERVER['REQUEST_URI'],1))?'/index':$_SERVER['REQUEST_URI']).'/view/css', 'css') as $cssFile){
 	echo '<link rel="stylesheet" href="'.$_url.'page/'.(empty(substr($_SERVER['REQUEST_URI'],1))?'index':$_SERVER['REQUEST_URI']).'/view/css/'.$cssFile.'">';
 }
+*/
 
 ///////////////////////////////////////////////////
 // Version 2
 // On Work
-consoleData($_documentPath);
+// consoleData($_documentPath);
 //
 // On Test
-$getPath = explode("/","/product/viewdetail/test/sub1");
-$countGetPath = count($getPath);
 
 // Get Private chi co minh no
 /*
@@ -49,12 +45,25 @@ Vi du:
 	
 
 */
-for ($x = 1; $x < $countGetPath; $x++){
-	consoleData("Path Number: ".$x." ,Path name:".$getPath[$x]);
-	foreach (getAllFileInFolderWithType($_phpPath.'css', 'css') as $cssFile){
-		echo '<link rel="stylesheet" href="'.$_url.'css/'.$cssFile.'">';
+// Should be in config.php to reuse
+$getPath = explode("/",$_documentPath);
+if ($getPath[1] == "" || !isset($getPath[1])){
+	$getPath[1] = "index";
+}
+$countGetPath = count($getPath);
+
+for ($x = 0; $x < $countGetPath; $x++){
+	// Get All Public Inheritent File
+	$combineLine[$x] = $combineLine[$x - 1].$getPath[$x].'/';
+	//consoleData('Path: '.$_phpPath.'css'.$combineLine[$x]);
+	//consoleData(getAllFileInFolderWithType($_phpPath.'css'.$combineLine[$x], 'css'));
+	foreach (getAllFileInFolderWithType($_phpPath.'css'.$combineLine[$x], 'css') as $cssFile){
+		echo('<link rel="stylesheet" href="'.$_url.'css'.$combineLine[$x].$cssFile.'">');
 	}
 }
-
-
+// Get Private File
+// consoleData($_phpPath.'css'.$_documentPath.'/private');
+foreach (getAllFileInFolderWithType($_phpPath.'css'.$_documentPath.'/private', 'css') as $cssFile){
+	echo('<link rel="stylesheet" href="'.$_url.'css'.$_documentPath.'/private/'.$cssFile.'">');
+}
 ?>
