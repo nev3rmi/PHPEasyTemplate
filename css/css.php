@@ -24,7 +24,31 @@ $getPath = explode("/","/product/viewdetail/test/sub1");
 $countGetPath = count($getPath);
 
 // Get Private chi co minh no
+/*
+Vi du:
+	css > product
+	Tat ca cac file trong product chi co minh no dc xem
+
+
+*/
 // Va tat ca cac Public thi se co may thang khac nua
+/*
+Vi du:
+	css > product > public
+	css > product > viewdetail 
+	
+	view viewdetail se thua huong tu css product > public
+	
+	neu cay dai` hon
+	
+	css > product > viewdetail > item
+	
+	Thi item se thua huong cua
+	css > product > public
+	css > product > viewdetail > public
+	
+
+*/
 for ($x = 1; $x < $countGetPath; $x++){
 	consoleData("Path Number: ".$x." ,Path name:".$getPath[$x]);
 	foreach (getAllFileInFolderWithType($_phpPath.'css', 'css') as $cssFile){
