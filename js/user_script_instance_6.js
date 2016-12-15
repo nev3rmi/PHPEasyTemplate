@@ -14,7 +14,7 @@ function loadBeforeLoginNavigationBar(){
 function submitForm(formID){
 	var formValue = $(formID).serialize();
 	$.post(getURL() + "page/user/login/controller/validatelogin.php",formValue,function (result){
-		$("#userNavbar").html(result);
+		$("#loginMessage").html(result);
 	});
 	return;
 }

@@ -3,6 +3,11 @@
 </li>
 <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
   <ul id="login-dp" class="dropdown-menu">
+   <li>
+   	<div class="row" id="loginMessage">
+   		
+   	</div>
+   </li>
     <li>
       <div class="row">
         <div class="col-md-12"> Login via
@@ -26,7 +31,7 @@
             </div>
           </form>
         </div>
-        <div class="bottom text-center"> New here ? <a href="#"><b>Join Us</b></a> </div>
+        <div class="bottom text-center"> New here ? <a href="<?php echo $_url;?>user/register"><b>Join Us</b></a> </div>
       </div>
     </li>
   </ul>

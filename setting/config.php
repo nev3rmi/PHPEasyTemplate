@@ -19,8 +19,8 @@ $_siteVersion = "2.0.0.0";
 
 
 //Regex Library
-$regexMail = "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/";
-$regexPassword = "";
+$_regexMail = "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/";
+$_regexPassword = "";
 
 
 // Connect DB String
