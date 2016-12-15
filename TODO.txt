@@ -1,0 +1,1 @@
+Need a function to get all information of the current login member
