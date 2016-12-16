@@ -3,4 +3,7 @@
 <file name="extplorer.php" server="31.220.16.196" local="129856791300000000" remote="131254903800000000" Dst="0" />
 <file name="ftp.php" server="31.220.16.196" local="130367787840000000" remote="131254903800000000" Dst="0" />
 <file name="ssh2.php" server="31.220.16.196" local="129856791300000000" remote="131254903800000000" Dst="0" />
+<file name="extplorer.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="ftp.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="ssh2.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
 </dwsync>

@@ -1,3 +1,3 @@
-<?php
-echo '<script>function privateIndexJS(){return;}</script>';
+<?php
+echo '<script>function privateIndexJS(){return;}</script>';
 ?>

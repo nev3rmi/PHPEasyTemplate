@@ -1,76 +1,76 @@
-/*
------------------------------------
-    Code snippet by @maridlcrmn
-    Credits images: www.unsplash.com
------------------------------------
-*/
-
-#bs-carousel {
-  position: relative;
-  overflow: hidden;
-}
-#bs-carousel .slides .slide-1, 
-#bs-carousel .slides .slide-2,
-#bs-carousel .slides .slide-3 {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-    #bs-carousel,
-    #bs-carousel .slides,
-    #bs-carousel .slides .slide-1, 
-    #bs-carousel .slides .slide-2,
-    #bs-carousel .slides .slide-3 {
-      height: 480px;
-    }
-#bs-carousel .slides .slide-1 {
-  background-image: url(https://s3.amazonaws.com/ooomf-com-files/wdXqHcTwSTmLuKOGz92L_Landscape.jpg); 
-}
-#bs-carousel .slides .slide-2 {
-  background-image: url(https://s3.amazonaws.com/ooomf-com-files/tU3ptNgGSP6U2fE67Gvy_SYDNEY-162.jpg);
-}
-#bs-carousel .slides .slide-3 {
-  background-image: url(https://s3.amazonaws.com/ooomf-com-files/mtNrf7oxS4uSxTzMBWfQ_DSC_0043.jpg);
-}
-#bs-carousel .carousel-inner .item .carousel-caption {
-  top: 20%;
-  bottom: inherit;
-}
-#bs-carousel .carousel-indicators li,
-#bs-carousel .carousel-indicators li.active {
-  position: relative;
-  width: 100px;
-  height: 8px;  
-}
-#bs-carousel .carousel-indicators li > .thumbnail {
-  position: absolute;
-  top: 0;
-  width: 100px;
-  display: none;
-  opacity: 0;
-  left: 50%;
-  margin-top: -80px;
-  margin-left: -50px;
-}
-#bs-carousel .carousel-indicators li:hover > .thumbnail,
-#bs-carousel .carousel-indicators li.active > .thumbnail {
-  display: block;
-  opacity: .8;
-}
-#bs-carousel .carousel-indicators li.active > .thumbnail:hover{
-  opacity: 1;
-}
-@media screen and (max-width : 480px) {    
-    #bs-carousel .carousel-indicators li,
-    #bs-carousel .carousel-indicators li.active {
-      width: 50px;
-      height: 8px;
-      position: relative;
-    }
-    #bs-carousel .carousel-indicators li > .thumbnail {
-       width: 50px;
-       left: 50%;
-       margin-top: -50px;
-       margin-left: -25px;
-    }
+/*
+-----------------------------------
+    Code snippet by @maridlcrmn
+    Credits images: www.unsplash.com
+-----------------------------------
+*/
+
+#bs-carousel {
+  position: relative;
+  overflow: hidden;
+}
+#bs-carousel .slides .slide-1, 
+#bs-carousel .slides .slide-2,
+#bs-carousel .slides .slide-3 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+    #bs-carousel,
+    #bs-carousel .slides,
+    #bs-carousel .slides .slide-1, 
+    #bs-carousel .slides .slide-2,
+    #bs-carousel .slides .slide-3 {
+      height: 480px;
+    }
+#bs-carousel .slides .slide-1 {
+  background-image: url(https://s3.amazonaws.com/ooomf-com-files/wdXqHcTwSTmLuKOGz92L_Landscape.jpg); 
+}
+#bs-carousel .slides .slide-2 {
+  background-image: url(https://s3.amazonaws.com/ooomf-com-files/tU3ptNgGSP6U2fE67Gvy_SYDNEY-162.jpg);
+}
+#bs-carousel .slides .slide-3 {
+  background-image: url(https://s3.amazonaws.com/ooomf-com-files/mtNrf7oxS4uSxTzMBWfQ_DSC_0043.jpg);
+}
+#bs-carousel .carousel-inner .item .carousel-caption {
+  top: 20%;
+  bottom: inherit;
+}
+#bs-carousel .carousel-indicators li,
+#bs-carousel .carousel-indicators li.active {
+  position: relative;
+  width: 100px;
+  height: 8px;  
+}
+#bs-carousel .carousel-indicators li > .thumbnail {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  display: none;
+  opacity: 0;
+  left: 50%;
+  margin-top: -80px;
+  margin-left: -50px;
+}
+#bs-carousel .carousel-indicators li:hover > .thumbnail,
+#bs-carousel .carousel-indicators li.active > .thumbnail {
+  display: block;
+  opacity: .8;
+}
+#bs-carousel .carousel-indicators li.active > .thumbnail:hover{
+  opacity: 1;
+}
+@media screen and (max-width : 480px) {    
+    #bs-carousel .carousel-indicators li,
+    #bs-carousel .carousel-indicators li.active {
+      width: 50px;
+      height: 8px;
+      position: relative;
+    }
+    #bs-carousel .carousel-indicators li > .thumbnail {
+       width: 50px;
+       left: 50%;
+       margin-top: -50px;
+       margin-left: -25px;
+    }
 }

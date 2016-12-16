@@ -4,4 +4,8 @@
 <file name="string.php" server="31.220.16.196" local="129856791140000000" remote="131254906200000000" Dst="0" />
 <file name="shell.php" server="31.220.16.196" local="129856791140000000" remote="131254906800000000" Dst="0" />
 <file name="xdiff.php" server="31.220.16.196" local="130995948740000000" remote="131254906800000000" Dst="0" />
+<file name="native.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="shell.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="string.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="xdiff.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
 </dwsync>

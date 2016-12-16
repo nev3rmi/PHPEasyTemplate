@@ -15,4 +15,19 @@
 <file name="standalone.php" server="31.220.16.196" local="130995948740000000" remote="131254906200000000" Dst="0" />
 <file name="System.php" server="31.220.16.196" local="130995948740000000" remote="131254906200000000" Dst="0" />
 <file name="Tar.php" server="31.220.16.196" local="130995948740000000" remote="131254906200000000" Dst="0" />
+<file name="compat.php41x.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="compat.php42x.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="compat.php50x.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="File_Operations.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="FTP.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="index.html" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="inputfilter.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="JSON.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="lib_zip.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="PasswordHash.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="PEAR.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="SSH2.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="standalone.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="System.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
+<file name="Tar.php" server="ftp.hostfree.pw//htdocs/" local="131261640000000000" remote="131261640000000000" Dst="0" />
 </dwsync>
