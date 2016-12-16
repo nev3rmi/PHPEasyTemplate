@@ -2,3 +2,5 @@ Need a function to get all information of the current login member
 
 When request successful (After regex check)
 Get privatekey of him => This key will need to encrypt all his data. Otherwise it will show there data in F12 which is not cool
+
+Need function check exist file RETURN true false
