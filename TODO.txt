@@ -4,3 +4,16 @@ When request successful (After regex check)
 Get privatekey of him => This key will need to encrypt all his data. Otherwise it will show there data in F12 which is not cool
 
 Need function check exist file RETURN true false
+
+Business layer implement => 
+
+Access to db and do the business logic
+
+Like have a coffeemachine need to find the employee responsible to the coffee machine
+
+=> Code the get employee responsible in the business layer
+
+Include it in the file controller
+
+Call that function in there.
+ 
