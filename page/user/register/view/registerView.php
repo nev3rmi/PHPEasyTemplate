@@ -8,28 +8,30 @@
 		<label for="inputEmail" class="col-lg-2 control-label">Email</label>
 		<div class="col-lg-10">
 			<input type="text" class="form-control" id="inputEmail" placeholder="Email" name="registerEmail">
-			<label class="control-label" for="inputEmail" id="inputEmailStatus">&nbsp;</label>
+			<label class="control-label bold" for="inputEmail" id="inputEmailStatus">&nbsp;</label>
 		</div>
 	</div>
 	<div class="form-group">
 		<label for="inputPassword" class="col-lg-2 control-label">Password</label>
 		<div class="col-lg-10">
 			<input type="password" class="form-control" id="inputPassword" placeholder="Password" name="registerPassword">
-			<label class="control-label" for="inputPassword">&nbsp;</label>
+			<label class="control-label bold" for="inputPassword" id="inputPasswordStatus">&nbsp;</label>
 		</div>
 	</div>
 	<div class="form-group">
 		<label for="inputRetypePassword" class="col-lg-2 control-label">Retype Password</label>
 		<div class="col-lg-10">
 			<input type="password" class="form-control" id="inputRetypePassword" placeholder="Retype Password" name="registerRetypePassword">
-			<label class="control-label" for="inputRetypePassword">&nbsp;</label>
+			<label class="control-label bold" for="inputRetypePassword" id="inputRetypePasswordStatus">&nbsp;</label>
 		</div>
 	</div>
 	<div class="form-group">
 		<div class="checkbox">
 		 	<label class="col-lg-12 control-label text-center">
 		 		<input type="checkbox" name="registerRuleAccepted">
+		 		<span id="registerRuleAcceptedStatus bold">
 			 	By signing up, you agree to the <?php echo $_siteName?> Service Terms & Conditions and the Privacy Policy.
+			 	</span>
 			</label>
 		</div>
 	</div>

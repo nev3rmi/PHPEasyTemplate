@@ -14,4 +14,7 @@ body{
 .float-left{
 	float:left;
 }
+.bold{
+	font-weight: bold;
+}
 
