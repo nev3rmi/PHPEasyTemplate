@@ -28,7 +28,7 @@
 	<div class="form-group">
 		<div class="checkbox">
 		 	<label class="col-lg-12 control-label text-center">
-		 		<input type="checkbox" name="registerRuleAccepted">
+		 		<input type="checkbox" name="registerRuleAccepted" id="registerRuleAccepted">
 		 		<span id="registerRuleAcceptedStatus bold">
 			 	By signing up, you agree to the <?php echo $_siteName?> Service Terms & Conditions and the Privacy Policy.
 			 	</span>
