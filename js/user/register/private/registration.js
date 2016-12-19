@@ -5,6 +5,26 @@ $(function() {
 	$.session.set('passwordCheck', false);
 	$.session.set('retypeCheck', false);
 	$.session.set('termAgreeCheck', false);
+	// Load Tooltips
+	$('#inputEmail').tooltip(
+	{
+		'trigger':'focus', 
+		'title': 'Example: xxx@xxx.com',
+		'html': true
+	});
+	$('#inputPassword').tooltip(
+	{
+		'trigger':'focus', 
+		'title': '<kbd>The password should contain <br>at least:</kbd><br> 8 charaters<br> one letter <br> one capital letter <br> one symbol <br> one number <br><br> Example: 1234ASDd5!',
+		'html': true
+	});
+	$('#inputRetypePassword').tooltip(
+	{
+		'trigger':'focus', 
+		'title': 'Re-type the password again!',
+		'html': true
+	});
+	
 });
 
 $("#submitNewAccount").click(function (){
@@ -14,24 +34,75 @@ $("#submitNewAccount").click(function (){
 	var passwordCheck = $.session.get('passwordCheck');
 	var retypeCheck = $.session.get('retypeCheck');
 	var termAgreeCheck = $.session.get('termAgreeCheck');
-	
-	if (emailCheck === true && passwordCheck === true && retypeCheck === true && termAgreeCheck === true){
-		var registrationForm = $("#registerNewAccount").serialize();
-		$.post(getURL() + "page/user/register/controller/registerController.php",registrationForm,function(result){
-			$("#registerStatus").html(result);
+	if(emailCheck === "false"){
+		BootstrapDialog.show({
+			message: 'Please input and correct the email field.',
+			title: 'REQUIREMENT',
+			type: BootstrapDialog.TYPE_WARNING
 		});
-	}else if(termAgreeCheck === "false"){
+		return false;
+	}
+	if(passwordCheck === "false"){
+		BootstrapDialog.show({
+			message: 'Please input and correct the password field.',
+			title: 'REQUIREMENT',
+			type: BootstrapDialog.TYPE_WARNING
+		});
+		return false;
+	}
+	if(retypeCheck === "false"){
+		BootstrapDialog.show({
+			message: 'Please correct re-type the password field.',
+			title: 'REQUIREMENT',
+			type: BootstrapDialog.TYPE_WARNING
+		});
+		return false;
+	}
+	if(termAgreeCheck === "false"){
 		BootstrapDialog.show({
 			message: 'By sign up you must accept term and condition.',
 			title: 'REQUIREMENT',
 			type: BootstrapDialog.TYPE_WARNING
 		});
+		return false;
+	}
+	if (emailCheck === "true" && passwordCheck === "true" && retypeCheck === "true" && termAgreeCheck === "true"){
+		// Loading Waiting box
+		var waitingDialog = new BootstrapDialog({
+			message: 'Please wait ...',
+			title: 'Processing',
+			type: BootstrapDialog.TYPE_PRIMARY
+		});
+		waitingDialog.open();
+		// Script run
+		var registrationForm = $("#registerNewAccount").serialize();
+		$.post(getURL() + "page/user/register/controller/registerController.php",registrationForm,function(result){
+			$("#registerStatus").html(result);
+		}).done(function() {
+			waitingDialog.setType(BootstrapDialog.TYPE_SUCCESS);
+			waitingDialog.setTitle('SUCCESS: Your account has been created successful!');
+			waitingDialog.setMessage('Please verify your account by click to the link in your email.');
+			setTimeout(function(){
+			  waitingDialog.close();
+			  // Redirect here
+				setTimeout(function(){
+			  		document.location.href="/";
+				},500);
+			}, 4500);
+		  })
+		  .fail(function() {
+			waitingDialog.setType(BootstrapDialog.TYPE_DANGER);
+			waitingDialog.setTitle('Failed');
+			waitingDialog.setMessage('Unknown reason');
+		  });
+		  return true;
 	}else{
 		BootstrapDialog.show({
-			message: 'Please correct the form before submit',
+			message: 'Unknown Error, please contact administrator to get help!',
 			title: 'ERROR',
 			type: BootstrapDialog.TYPE_DANGER
 		});
+		return false;
 	}
 });
 
@@ -55,21 +126,27 @@ $("#inputEmail").on("keyup",function (e){
 $("#inputPassword").on("keyup",function (e){
 	"use strict";
 	var typePassword = $("#inputPassword").val();
-	if (regexCheck(passwordPattern(),typePassword) && regexCheck(passwordComplexPattern(), typePassword)){
-		$("#inputPasswordStatus").parent().removeClass("has-error").addClass("has-success");
-		$("#inputPasswordStatus").html('<i class="fa fa-check" aria-hidden="true"></i> Correct');
-		$.session.set('passwordCheck', true);
-	}else if(!regexCheck(passwordPattern(),typePassword)){
-		$("#inputPasswordStatus").parent().addClass("has-error").removeClass("has-success");
-		$("#inputPasswordStatus").html('<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> The password should not content any space or quotation mark. Ex not: "' + "'");
-		$.session.set('passwordCheck', false);
+	var countPassword = typePassword.length;
+	if (countPassword >= 8){
+		if (regexCheck(passwordPattern(),typePassword) && regexCheck(passwordComplexPattern(), typePassword)){
+			$("#inputPasswordStatus").parent().removeClass("has-error").addClass("has-success");
+			$("#inputPasswordStatus").html('<i class="fa fa-check" aria-hidden="true"></i> Correct');
+			$.session.set('passwordCheck', true);
+		}else if(!regexCheck(passwordPattern(),typePassword)){
+			$("#inputPasswordStatus").parent().addClass("has-error").removeClass("has-success");
+			$("#inputPasswordStatus").html('<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> The password should not content any space or quotation mark. Ex not: "' + "'");
+			$.session.set('passwordCheck', false);
+		}else{
+			$("#inputPasswordStatus").parent().addClass("has-error").removeClass("has-success");
+			$("#inputPasswordStatus").html('<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Incorrect password typed. Ex: tEst!23');
+			$.session.set('passwordCheck', false);
+		}
 	}else{
 		$("#inputPasswordStatus").parent().addClass("has-error").removeClass("has-success");
-		$("#inputPasswordStatus").html('<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> The password should contain at least one letter, one capital letter, one symbol and one number. Ex: tEst!23');
+		$("#inputPasswordStatus").html('<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> The password should be at least 8 characters.');
 		$.session.set('passwordCheck', false);
 	}
 });
-
 
 $("#inputRetypePassword, #inputPassword").on("keyup",function (e){
 	"use strict";
