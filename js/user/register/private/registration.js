@@ -20,7 +20,7 @@ $("#submitNewAccount").click(function (){
 		$.post(getURL() + "page/user/register/controller/registerController.php",registrationForm,function(result){
 			$("#registerStatus").html(result);
 		});
-	}else if(termAgreeCheck != true){
+	}else if(termAgreeCheck === "false"){
 		BootstrapDialog.show({
 			message: 'By sign up you must accept term and condition.',
 			title: 'REQUIREMENT',
