@@ -15,7 +15,7 @@ $(function() {
 	$('#inputPassword').tooltip(
 	{
 		'trigger':'focus', 
-		'title': '<kbd>The password should contain <br>at least:</kbd><br> 8 charaters<br> one letter <br> one capital letter <br> one symbol <br> one number <br><br> Example: 1234ASDd5!',
+		'title': '<kbd>The password should contain <br>at least:</kbd><br> 8 charaters<br> 1 letter <br> 1 capital letter <br> 1 symbol <br> 1 number <br><br> Example: 1234ASDd5!',
 		'html': true
 	});
 	$('#inputRetypePassword').tooltip(
