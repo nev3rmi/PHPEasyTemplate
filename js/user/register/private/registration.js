@@ -15,10 +15,16 @@ $("#submitNewAccount").click(function (){
 	var retypeCheck = $.session.get('retypeCheck');
 	var termAgreeCheck = $.session.get('termAgreeCheck');
 	
-	if (emailCheck === true && passwordCheck === true && retypeCheck !== false=== true && termAgreeCheck === true){
+	if (emailCheck === true && passwordCheck === true && retypeCheck === true && termAgreeCheck === true){
 		var registrationForm = $("#registerNewAccount").serialize();
 		$.post(getURL() + "page/user/register/controller/registerController.php",registrationForm,function(result){
 			$("#registerStatus").html(result);
+		});
+	}else if(termAgreeCheck != true){
+		BootstrapDialog.show({
+			message: 'By sign up you must accept term and condition.',
+			title: 'REQUIREMENT',
+			type: BootstrapDialog.TYPE_WARNING
 		});
 	}else{
 		BootstrapDialog.show({
@@ -32,7 +38,7 @@ $("#submitNewAccount").click(function (){
 // Need finish on tomorrow
 $("#inputEmail").on("keyup",function (e){
 	"use strict";
-	var value = ($("#inputEmail").val() + String.fromCharCode(e.which)).toLowerCase();
+	var value = $("#inputEmail").val();
 	if (regexCheck(emailPattern(),value))
 	{
 		$("#inputEmailStatus").parent().removeClass("has-error").addClass("has-success");
@@ -80,6 +86,15 @@ $("#inputRetypePassword, #inputPassword").on("keyup",function (e){
 		$.session.set('retypeCheck', false);
 	}
 });
+
+$('#registerRuleAccepted').on("click", function (){
+	if($('#registerRuleAccepted').prop('checked')) {
+    $.session.set('termAgreeCheck', true);
+	} else {
+		$.session.set('termAgreeCheck', false);
+	}
+})
+
 
 
 
