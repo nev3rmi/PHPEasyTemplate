@@ -16,4 +16,8 @@ Like have a coffeemachine need to find the employee responsible to the coffee ma
 Include it in the file controller
 
 Call that function in there.
+
+---------
+
+Should put _partialLayout
  

@@ -69,7 +69,7 @@ $("#submitNewAccount").click(function (){
 	if (emailCheck === "true" && passwordCheck === "true" && retypeCheck === "true" && termAgreeCheck === "true"){
 		// Script run
 		var registrationForm = $("#registerNewAccount").serialize();
-		$.post(getURL() + "page/user/register/partialview/validateAndAddUser.php",registrationForm,function(result){
+		$.post(getURL() + "page/user/register/controller/addNewUserController.php",registrationForm,function(result){
 			$("#registerStatus").html(result);
 		})
 		  return true;
