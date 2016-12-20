@@ -11,11 +11,11 @@ if (!RegexCheck($_regexMail,$email)){
 	SetRegisterDialogToError("Invalid type of email");
 	exit();
 };
-if (!RegexCheck($password,$email)){
+if (!RegexCheck($_regexPassword,$password)){
 	SetRegisterDialogToError("Invalid type of password");
 	exit();
 };
-if (!RegexCheck($retypePassword,$email)){
+if (!RegexCheck($_regexPassword,$retypePassword)){
 	SetRegisterDialogToError("Invalid type of retype password");
 	exit();
 };
@@ -23,6 +23,8 @@ if ($termAndCondition != "on"){
 	SetRegisterDialogToError("You must agree term before sign up");
 	exit();
 };
+// 
+
 // Create Private Key
 if (false == false){
 	SetRegisterDialogToError("Cannot create Private Key");
