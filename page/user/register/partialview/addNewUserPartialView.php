@@ -4,7 +4,13 @@
 	function SetRegisterDialogToLoading(registerDialog){
 		registerDialog.setType(BootstrapDialog.TYPE_PRIMARY);
 		registerDialog.setMessage('Please wait ...');
-		registerDialog.setTitle('Processing');
+		registerDialog.setTitle('PROCESSING');
+		return;
+	}
+	function SetRegisterDialogToError(registerDialog, message){
+		registerDialog.setType(BootstrapDialog.TYPE_DANGER);
+		registerDialog.setMessage(message);
+		registerDialog.setTitle('ERROR');
 		return;
 	}
 	function OpenRegisterDialog(registerDialog){
@@ -13,9 +19,13 @@
 	}
 </script>
 <script>
-	// Call
-	// Loading Processing Modal
+	// Initial Dialog
 	var registerDialog = new BootstrapDialog();
 	SetRegisterDialogToLoading(registerDialog);
 	OpenRegisterDialog(registerDialog);
 </script>
+<?php
+function SetRegisterDialogToError($message){
+	echo "<script>SetRegisterDialogToError(registerDialog, '".$message."');</script>";
+}
+?>

@@ -5,5 +5,11 @@ $email = $_POST['registerEmail'];
 $password = $_POST['registerPassword'];
 $retypePassword = $_POST['registerRetypePassword'];
 $termAndCondition = $_POST['registerRuleAccepted'];
-consoleData($email);
+
+// Regex Value
+
+// Create Private Key
+if (false == false){
+		SetRegisterDialogToError("Cannot create Private Key");
+}
 ?>
