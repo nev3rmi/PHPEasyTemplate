@@ -19,6 +19,7 @@ $termAndCondition = $_POST['registerRuleAccepted'];
 // On success
 /*sleep(3);
 */
+consoleData($test);
 echo "
 <script>
 	registerDialog.setType(BootstrapDialog.TYPE_DANGER);
