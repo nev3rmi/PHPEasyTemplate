@@ -67,34 +67,11 @@ $("#submitNewAccount").click(function (){
 		return false;
 	}
 	if (emailCheck === "true" && passwordCheck === "true" && retypeCheck === "true" && termAgreeCheck === "true"){
-		// Loading Waiting box
-		var waitingDialog = new BootstrapDialog({
-			message: 'Please wait ...',
-			title: 'Processing',
-			type: BootstrapDialog.TYPE_PRIMARY
-		});
-		waitingDialog.open();
 		// Script run
 		var registrationForm = $("#registerNewAccount").serialize();
-		$.post(getURL() + "page/user/register/controller/registerController.php",registrationForm,function(result){
+		$.post(getURL() + "page/user/register/partialview/validateAndAddUser.php",registrationForm,function(result){
 			$("#registerStatus").html(result);
-		}).done(function() {
-			waitingDialog.setType(BootstrapDialog.TYPE_SUCCESS);
-			waitingDialog.setTitle('SUCCESS: Your account has been created successful!');
-			waitingDialog.setMessage('Please verify your account by click to the link in your email.');
-			setTimeout(function(){
-			  waitingDialog.close();
-			  // Redirect here
-				setTimeout(function(){
-			  		document.location.href="/";
-				},500);
-			}, 4500);
-		  })
-		  .fail(function() {
-			waitingDialog.setType(BootstrapDialog.TYPE_DANGER);
-			waitingDialog.setTitle('Failed');
-			waitingDialog.setMessage('Unknown reason');
-		  });
+		})
 		  return true;
 	}else{
 		BootstrapDialog.show({
