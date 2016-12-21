@@ -1,4 +1,4 @@
-<?php include_once realpath($_SERVER["DOCUMENT_ROOT"])."/setting/config.php"; ?>
+<?php include_once realpath($_SERVER["DOCUMENT_ROOT"])."/setting/control.php"; ?>
 <?php
 // Bug >
 // Test
@@ -11,4 +11,5 @@ $salt = "4b52555772396d65534e54545774555169566a54686c576573685659555232616b4e6b5
 echo encryptData("Test",$privateKey,$salt);
 echo "<br>";
 echo decryptData("6avRtDLTCEnFWUt6av6rfQWzBVe9tkgcW90vLdhpsZcPbzcDVpCEIbk56QsJd8v9ZTAm/V+xq7G3Lcr5wAM9Dd",$privateKey,$salt);
+
 ?>
