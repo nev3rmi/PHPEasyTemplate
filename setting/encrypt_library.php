@@ -9,12 +9,12 @@ function GenerateRandomString($length = 64) {
 	return $randomString;
 }
 
-function EncryptKey($Decryptkey){
-	return strrev(bin2hex(base64_encode($Decryptkey)));
+function EncryptKey($decryptkey){
+	return strrev(bin2hex(base64_encode($decryptkey)));
 }
 
-function DecryptKey($EncryptKey){
-	return base64_decode(hex2bin(strrev($EncryptKey)));
+function DecryptKey($encryptKey){
+	return base64_decode(hex2bin(strrev($encryptKey)));
 }
 
 function CreatePrivateKey(){

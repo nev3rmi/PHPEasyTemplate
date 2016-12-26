@@ -1,7 +1,21 @@
 <?php
-include_once "/home/s3568988/public_html/setting/config.php";
+class LoggedUser{
+	var $username = $_SESSION['username'];
+	var $password = $_SESSION['password'];
+	
+	function GetUserInformation($username, $password){
+		return ;
+	}
+}
 ?>
 <?php
+// Input Username, Password => get Id, Role, Group, And All Type Of Information, Create cookie for it base on Id All information must be encrypted
+
+/*function GetUserInformation($userName, $password){
+	
+}
+
+
 // Get Page Id
 $getPage = mysqli_query($connect5,"SELECT * FROM `Pages` WHERE `PageURL` = '".$urlc_s."'");
 if (mysqli_num_rows($getPage) == 1){
@@ -36,9 +50,10 @@ $pageId = $page[0];
 $isSuperUser = set variable;
 $permissionName = set variable(read,write) or 0;
 */
+/*
 function IfThisUserCan($permissionName, $userId, $groupId, $pageId, $isSuperUser){
-	if (/* Match All */){
-		return true;
+	if (/* Match All ){*/
+/*		return true;
 	}
 	return false;
 }

@@ -26,8 +26,17 @@ if ($termAndCondition != "on"){
 // 
 
 // Create Private Key
-if (false == false){
+if ($privateKey = CreatePrivateKey()){
+	if ($salt = CreatingSalt(CreatingHash($password))){
+		$result = "Your Private Key: ".$privateKey."<br>Your Salt: ".$salt;
+		SetDialogInGeneral($result,"Personal Details","primary");
+	}else{
+		SetRegisterDialogToError("Cannot create Salt");
+		exit();
+	}
+}else{
 	SetRegisterDialogToError("Cannot create Private Key");
+	exit();
 }
 
 // Need to run independently

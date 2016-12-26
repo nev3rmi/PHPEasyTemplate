@@ -17,6 +17,12 @@
 		registerDialog.open();
 		return;
 	}
+	function SetDialogInGeneral(registerDialog, message, title, type){
+		registerDialog.setType('type-'+type);
+		registerDialog.setMessage(message);
+		registerDialog.setTitle(title);
+		return;
+	}
 </script>
 <script>
 	// Initial Dialog
@@ -27,5 +33,8 @@
 <?php
 function SetRegisterDialogToError($message){
 	echo "<script>SetRegisterDialogToError(registerDialog, '".$message."');</script>";
+}
+function SetDialogInGeneral($message, $title, $type){
+	echo "<script>SetDialogInGeneral(registerDialog, '".$message."', '".$title."', '".$type."')</script>";
 }
 ?>

@@ -1,4 +1,5 @@
-<li>
+<?php include_once realpath($_SERVER["DOCUMENT_ROOT"])."/setting/control.php"; ?>
+ <li>
   <p class="navbar-text">Already have an account?</p>
 </li>
 <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>

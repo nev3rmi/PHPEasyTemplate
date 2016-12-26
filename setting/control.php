@@ -31,6 +31,7 @@ $_copyRight = "Copyright ".$_sitePublisher." &copy; ". $_siteCopyrightYear;
 	}
 		// Connecting MySQL
 		if ($_useMysql == 1){
+			include_once $_phpPath."setting/database_access.php";
 			include_once $_phpPath."setting/mysql_config.php";
 		}
 	
