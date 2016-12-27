@@ -21,3 +21,12 @@ Call that function in there.
 
 Should put _partialLayout
  
+---------
+
+Control Email template
+
+Replace @example to word that wanted
+
+--------
+
+Put escape string in to remove error
