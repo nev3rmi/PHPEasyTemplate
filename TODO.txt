@@ -30,3 +30,11 @@ Replace @example to word that wanted
 --------
 
 Put escape string in to remove error
+
+
+--------
+
+V2.1:
+
+config.php will include control.php => Version 1 migrate to version 2 is possible.
+

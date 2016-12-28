@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AggregateException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757000000000" Dst="0" />
+<file name="CancellationException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757000000000" Dst="0" />
+<file name="EachPromise.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757000000000" Dst="0" />
+<file name="FulfilledPromise.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757000000000" Dst="0" />
+<file name="functions.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="functions_include.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="Promise.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="PromiseInterface.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="PromisorInterface.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="RejectedPromise.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="RejectionException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="TaskQueue.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+</dwsync>

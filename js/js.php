@@ -36,6 +36,8 @@ Need to auto import .php, maybe delete js-top
 
 // TODO: Need re check some value get wrong
 
+// TODO: Need to check if file has been include, must apply history $_SESSION['jsIncluded'] = List<String>
+
 for ($x = 0; $x < $_countGetPath; $x++){
 
 	// Get All Public Inheritent File

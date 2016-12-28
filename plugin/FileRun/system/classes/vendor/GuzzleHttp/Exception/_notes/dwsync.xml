@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="BadResponseException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757000000000" Dst="0" />
+<file name="ClientException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757000000000" Dst="0" />
+<file name="ConnectException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757000000000" Dst="0" />
+<file name="GuzzleException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757000000000" Dst="0" />
+<file name="RequestException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757000000000" Dst="0" />
+<file name="SeekException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757000000000" Dst="0" />
+<file name="ServerException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757000000000" Dst="0" />
+<file name="TooManyRedirectsException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757000000000" Dst="0" />
+<file name="TransferException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757000000000" Dst="0" />
+</dwsync>

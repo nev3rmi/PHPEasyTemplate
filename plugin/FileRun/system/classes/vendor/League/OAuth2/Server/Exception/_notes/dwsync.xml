@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AccessDeniedException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="InvalidClientException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="InvalidCredentialsException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="InvalidGrantException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="InvalidRefreshException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="InvalidRequestException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="InvalidScopeException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="OAuthException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="ServerErrorException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="UnauthorizedClientException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="UnsupportedGrantTypeException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="UnsupportedResponseTypeException.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+</dwsync>

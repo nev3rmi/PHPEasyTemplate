@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="block.textformat.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="function.counter.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="function.cycle.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="function.fetch.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="function.math.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifier.capitalize.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifier.date_format.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifier.debug_print_var.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifier.escape.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifier.regex_replace.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifier.replace.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifier.spacify.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifier.truncate.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.cat.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.count_characters.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.count_paragraphs.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.count_sentences.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.count_words.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.default.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.escape.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.from_charset.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.indent.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.lower.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.noprint.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.string_format.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.strip.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.strip_tags.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.to_charset.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.unescape.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.upper.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="modifiercompiler.wordwrap.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="outputfilter.trimwhitespace.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="shared.escape_special_chars.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="shared.literal_compiler_param.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="shared.make_timestamp.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="shared.mb_str_replace.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="shared.mb_unicode.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="shared.mb_wordwrap.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+<file name="variablefilter.htmlspecialchars.php" server="ftp.hostfree.pw//htdocs/" local="131231432220000000" remote="131273755200000000" Dst="0" />
+</dwsync>

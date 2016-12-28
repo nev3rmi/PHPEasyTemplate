@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="ChromePHPFormatter.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273758200000000" Dst="0" />
+<file name="ElasticaFormatter.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273758200000000" Dst="0" />
+<file name="FlowdockFormatter.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273758200000000" Dst="0" />
+<file name="FluentdFormatter.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273758200000000" Dst="0" />
+<file name="FormatterInterface.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273758200000000" Dst="0" />
+<file name="GelfMessageFormatter.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273758200000000" Dst="0" />
+<file name="HtmlFormatter.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273758200000000" Dst="0" />
+<file name="JsonFormatter.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273758200000000" Dst="0" />
+<file name="LineFormatter.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273758200000000" Dst="0" />
+<file name="LogglyFormatter.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273758200000000" Dst="0" />
+<file name="LogstashFormatter.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273758200000000" Dst="0" />
+<file name="MongoDBFormatter.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273758200000000" Dst="0" />
+<file name="NormalizerFormatter.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273758200000000" Dst="0" />
+<file name="ScalarFormatter.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273758200000000" Dst="0" />
+<file name="WildfireFormatter.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273758200000000" Dst="0" />
+</dwsync>

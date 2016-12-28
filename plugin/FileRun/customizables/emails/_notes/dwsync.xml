@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name=".htaccess" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752200000000" Dst="0" />
+<file name="account_notification.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752200000000" Dst="0" />
+<file name="comment_added.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752200000000" Dst="0" />
+<file name="comment_received.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752200000000" Dst="0" />
+<file name="download.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752200000000" Dst="0" />
+<file name="file_deleted.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752200000000" Dst="0" />
+<file name="folder_shared.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752200000000" Dst="0" />
+<file name="forgot_password.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752200000000" Dst="0" />
+<file name="generic.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="index.html" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="label_received.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="label_set.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="login.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="login_failed.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="password_changed.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="preview.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="provide_download.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="receive_copy.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="receive_move.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="receive_upload.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="reset_password.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="send_files_by_email.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="shared_folder_available.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="signup_email.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="space_quota_warning.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="upload.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="weblink_access.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="weblink_download.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+<file name="weblink_upload.tpl.txt" server="ftp.hostfree.pw//htdocs/" local="131231432180000000" remote="131273752800000000" Dst="0" />
+</dwsync>

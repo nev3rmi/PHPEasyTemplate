@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AbstractStorage.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="AccessTokenInterface.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="AuthCodeInterface.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="ClientInterface.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="MacTokenInterface.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="RefreshTokenInterface.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="ScopeInterface.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="SessionInterface.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+<file name="StorageInterface.php" server="ftp.hostfree.pw//htdocs/" local="131231432280000000" remote="131273757600000000" Dst="0" />
+</dwsync>
