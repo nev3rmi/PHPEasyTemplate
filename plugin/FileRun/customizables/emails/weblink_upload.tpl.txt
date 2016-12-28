@@ -1,0 +1,9 @@
+<Action>
+<div style="margin-top:3px;">
+	<div style="color:gray">{$info.details.date} (<em>{$info.details.date|MySQLTimeDiff}</em>)</div>
+	{t 1=$info.details.details.filename|safeHTML 2=$info.details.details.relative_path|nicerRelativePath|safeHTML}The file "%1" has been uploaded by a visitor inside the folder "%2" which was shared through a link.{/t}
+{if $info.details.details.ip_address}
+    <div style="color:silver">{t 1=$info.details.details.ip_address}From the IP address: %1{/t}</div>
+{/if}
+</div>
+</Action>

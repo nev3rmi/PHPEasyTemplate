@@ -1,0 +1,86 @@
+body {
+	font: 13px 'Roboto', Helvetica, sans-serif;
+	color: #000;
+	cursor: default;
+}
+::-webkit-scrollbar {
+	height: 16px;
+	overflow: visible;
+	width: 16px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: rgba(0,0,0,.2);
+	background-clip: padding-box;
+	border: solid transparent;
+	border-width: 1px 1px 1px 6px;
+	min-height: 28px;
+	padding: 100px 0 0;
+	box-shadow: inset 1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.07);
+}
+.x-form-item-label em {color: red;}
+span.formComment {color: #6a6a6a;}
+
+div.error {color: red;}
+div.ok {color: green;}
+
+table {font-size: 13px;}
+table.niceborder {background-color: silver;}
+table.niceborder td {background-color: white;}
+table.niceborder .header {font-weight: bold;}
+
+table.verysmall td {font-size:9px;}
+
+#FR-Tree-Region .x-tree-ec-icon {
+	display: none;
+}
+#FR-Tree-Region .x-tree-node-el {
+	padding-left: 0;
+}
+#FR-Tree-Region .x-panel-body {
+	background-color: white;
+}
+#FR-Tree-Region .x-tree-node .x-tree-selected {
+	background-color:white;
+}
+
+#gridTabPanel .x-grid3-row td, #gridTabPanel .x-grid3-hd-row td {
+	font-size:11px;
+}
+
+.adminSection {
+	background-color:whitesmoke;
+	cursor: default;
+}
+.adminSection * {cursor:default;}
+.adminSection a span {color: gray;}
+.sysConfMenuItem {
+	border-top:1px solid #E0E0E0;
+	border-bottom:1px solid #E0E0E0;
+	background-color:whitesmoke;color:white;
+	margin-top:10px;
+	margin-bottom:10px;
+	cursor: default;
+}
+.sysConfMenuItem a span {color: gray;font-size:16px;}
+.sysConfMenuItem * {cursor:default;}
+
+.avatar-s {
+	height: 24px;
+	width: 24px;
+	border-radius:4px;
+}
+.avatar-xs {
+	height: 18px;
+	width: 18px;
+	border-radius:2px;
+}
+.group-s, .role-s {
+	height: 18px;
+	width: 18px;
+}
+.infoButton {
+	display: inline-block;
+	position:absolute;
+	top:1px;
+	right:0;
+}

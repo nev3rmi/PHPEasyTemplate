@@ -1,0 +1,17 @@
+<Action>
+<div style="margin-top:3px;">
+	<div style="color:gray">{$info.details.date} (<em>{$info.details.date|MySQLTimeDiff}</em>)</div>
+	<div style="margin-left:5px;">{t 1=$info.actionUserInfo.name 2=$info.details.details.relative_path|nicerRelativePath}User "<strong>%1</strong>" has shared the folder "%2" with:{/t}
+		<ul style="margin-left:15px;margin-top:0px;">
+		{foreach from=$info.details.details.with_gid key=gid item=perms}
+			{assign var="groupInfo" value=$gid|groupInfo}
+			<li>{t 1=$groupInfo.name}group "<strong>%1</strong>"{/t}</li>
+		{/foreach}
+		{foreach from=$info.details.details.with_uid key=uid item=perms}
+			{assign var="userInfo" value=$uid|userInfo}
+			<li>{t 1=$userInfo.name}user "<strong>%1</strong>"{/t}</li>
+		{/foreach}
+		</ul>
+	</div>
+</div>
+</Action>

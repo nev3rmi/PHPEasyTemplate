@@ -1,0 +1,11 @@
+<Action>
+<div style="margin-top:3px;">
+	<div style="color:gray">{$info.details.date} (<em>{$info.details.date|MySQLTimeDiff}</em>)</div>
+	<div>{t 1=$info.actionUserInfo.name|forHTML 2=$info.relativePath|nicerRelativePath}User "<strong>%1</strong>" added the following files to the "%2" Zip archive:{/t}</div>
+{foreach from=$info.details.details.files item=file}
+	<div style="margin-top:5px;margin-left:5px;">
+	<strong>/{$file}</strong>
+	</div>
+{/foreach}
+</div>
+</Action>

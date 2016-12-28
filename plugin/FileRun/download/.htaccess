@@ -1,0 +1,9 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTP_COOKIE} !^.*FileRunDownloadTrick.*$ [NC]
+RewriteRule .* - [F]
+RewriteCond %{HTTP_COOKIE} FileRunDownloadTrick=([^;]+) [NC]
+RewriteRule ^.*$ %1 [NC,L,NE]
+ForceType applicaton/octet-stream
+ErrorDocument 404 -

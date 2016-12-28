@@ -1,0 +1,9 @@
+<Action>
+{assign var="userInfo" value=$info.details.details.from_uid|userInfo}
+<div>
+	<div style="color:gray">{$info.details.date} (<em>{$info.details.date|MySQLTimeDiff}</em>)</div>
+	<div style="margin-left:5px;">{t 1=$userInfo.name|forHTML 2=$info.details.details.to_user_relative_path|nicerRelativePath|forHTML}User "<strong>%1</strong>" added the following comment on the file "<strong>%2</strong>":{/t}
+		<div style="margin-left:15px;"><em>{$info.details.details.comment|forHTML|nl2br}</em></div>
+	</div>
+</div>
+</Action>

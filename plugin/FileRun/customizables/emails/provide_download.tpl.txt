@@ -1,0 +1,8 @@
+<Action>
+<div style="margin-top:3px;">
+	<div style="color:gray">{$info.details.date} (<em>{$info.details.date|MySQLTimeDiff}</em>)</div>
+	<div style="margin-left:5px;">
+	{t 1=$info.actionUserInfo.name|safeHTML 2=$info.details.details.provider_relative_path|nicerRelativePath 3=$info.actionUserInfo.company|safeHTML}{if $info.actionUserInfo.company}<strong>%1</strong>, from %3, downloaded the file <strong>%2</strong>".{else}<strong>%1</strong> downloaded the file "<strong>%2</strong>".{/if}{/t}
+	</div>
+</div>
+</Action>
