@@ -33,6 +33,6 @@ Put escape string in to remove error
 
 --------
 
-Cronjob: https://github.com/rse/jquery-schedule - http://shawnchin.github.io/jquery-cron/
+Cronjob: https://github.com/rse/jquery-schedule - http://shawnchin.github.io/jquery-cron/ - http://www.aegissofttech.com/Articles/use-of-jqeury-cron-in-dot-net-mvc-application.html
 
 Log: https://github.com/remybach/jQuery.clientSideLogging
