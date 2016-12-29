@@ -30,3 +30,8 @@ Replace @example to word that wanted
 --------
 
 Put escape string in to remove error
+
+--------
+\
+Schedule: https://github.com/rse/jquery-schedule
+Log: https://github.com/remybach/jQuery.clientSideLogging
