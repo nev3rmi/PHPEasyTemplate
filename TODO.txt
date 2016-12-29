@@ -31,6 +31,7 @@ Replace @example to word that wanted
 
 Put escape string in to remove error
 
+<<<<<<< HEAD
 
 --------
 
@@ -38,3 +39,10 @@ V2.1:
 
 config.php will include control.php => Version 1 migrate to version 2 is possible.
 
+=======
+--------
+
+Cronjob: https://github.com/rse/jquery-schedule - http://shawnchin.github.io/jquery-cron/ - http://www.aegissofttech.com/Articles/use-of-jqeury-cron-in-dot-net-mvc-application.html
+
+Log: https://github.com/remybach/jQuery.clientSideLogging
+>>>>>>> origin/master
