@@ -32,6 +32,7 @@ Replace @example to word that wanted
 Put escape string in to remove error
 
 --------
-\
-Schedule: https://github.com/rse/jquery-schedule
+
+Cronjob: https://github.com/rse/jquery-schedule - http://shawnchin.github.io/jquery-cron/
+
 Log: https://github.com/remybach/jQuery.clientSideLogging
